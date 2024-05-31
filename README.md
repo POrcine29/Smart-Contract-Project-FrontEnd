@@ -169,55 +169,6 @@ export default function HomePage() {
       </header>
       {initUser()}
       <style jsx>{`
-        .container {
-          text-align: center;
-          padding: 20px;
-          font-family: Arial, sans-serif;
-          background-color: #f0f0f5;
-        }
-        .content {
-          margin-top: 20px;
-        }
-        .input {
-          padding: 10px;
-          margin: 10px 0;
-          border: 1px solid #ccc;
-          border-radius: 5px;
-        }
-        .button {
-          padding: 10px 20px;
-          margin: 10px;
-          border: none;
-          border-radius: 5px;
-          background-color: #007bff;
-          color: white;
-          font-size: 16px;
-          cursor: pointer;
-        }
-        .button:hover {
-          background-color: #0056b3;
-        }
-        .withdraw-buttons {
-          display: flex;
-          justify-content: center;
-          gap: 10px;
-          flex-wrap: wrap;
-        }
-        .withdraw-button {
-          padding: 20px;
-          margin: 10px;
-          border: none;
-          border-radius: 10px;
-          background-color: #28a745;
-          color: white;
-          font-size: 18px;
-          cursor: pointer;
-          flex: 1 0 30%;
-          max-width: 200px;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .withdraw-button:hover {
-          background-color: #218838;
         }
       `}</style>
     </main>
