@@ -1,9 +1,4 @@
- <main className="container">
-      <header>
-        <h1>CAKE HEAVEN</h1>
-      </header>
-      {initUser()}
-      <style jsx>{`
+ 
         .container {
           text-align: center;
           padding: 20px;
